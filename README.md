@@ -54,7 +54,7 @@ So, we want to implement of a solution that strengthen our documentation process
 
 The following sequence diagram [^1] illustrates in a simplified way how collaborators should contribute to a specific area documentation such as DHIS2 COVID19 Documentation or DHIS2 Android App.
 
-![workflow](/en/resources/images/workflow.jpg)
+![workflow](/docs/en/resources/images/workflow.jpg)
 
 ### Detailed workflow
 
