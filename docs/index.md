@@ -54,7 +54,7 @@ So, we want to implement of a solution that strengthen our documentation process
 
 The following sequence diagram [^1] illustrates in a simplified way how collaborators should contribute to a specific area documentation such as DHIS2 COVID19 Documentation or DHIS2 Android App.
 
-![workflow](en/resources/images/workflow.jpg)
+![workflow](en/resources/images/workflow.png)
 
 ### Detailed workflow
 
@@ -98,27 +98,24 @@ Below you will find a step-by-step. May you be unfamiliar with Github, we recomm
 !!! Note
     You can read more on how to [create a branch using Github Desktop][branch desktop].
 
-#### Step 6 - Stage the changes
+#### Step 6, 7 & 8 - Stage, Commit & Push the changes
 
 A best practice consists in preparing and checking and probably more importantly choosing the changes you want to commit, especially of you have done a lot of them in various files.
 
-!!! Tip "Tools to use"
-    A Git client such as *Github Desktop*.
+Once you have chosen all the changes you want to share, you need to commit. To do so you need to write a message and commit the staged changes.
 
-!!! Note
-    You can read more on how to [Select changes to include in a commit using Github Desktop][select change].
+Finally, it is time to push this commit and make your changes available on the Github repository you have created in [Step 1][step1]. Remember to write a commit message to help other contributors and possible reviewers to understand what you have changed.
 
-#### Step 7 - Push to your Github repository
+> **Tip**
+>
+> Tools: a Git client such as *Github Desktop*.
 
-Once you have chosen all the changes you want to commit, it is time to push them and make them available on the Github repository you have created in [Step 1][step1]. Remember to write a commit message to help other contributors and possible reviewers to understand what you have changed.
+> **Note**
+>
+> You can read more on how to [Select changes to include in a commit using Github Desktop][select change].
+> You can read more on how to [write a commit message and push your changes using Github Desktop][commit push desktop].
 
-!!! Tip "Tools to use"
-    A Git client such as *Github Desktop*.
-
-!!! Note
-    You can read more on how to [write a commit message and push your changes using Github Desktop][commit push desktop].
-
-#### Step 8 & 9 - Pull request & update of the fork and the area specific documentation repositories
+#### Step 9 & 10 - Pull request & update of the fork and the area specific documentation repositories
 
 The changes you have made are now available in your fork. You want to integrate those with the rest of the documentation that is already available in the repository. To do so, you need to send a pull request and merge. In your fork this process should be fairly straightforward as you are the only one to work on it!
 
@@ -130,7 +127,7 @@ When the master branch of your repo includes all the changes you wanted to have,
 !!! Note
     You can read more on how to [create a pull request using Github Desktop][pr from desktop] and/or [create a pull request from a fork][pr from fork].
 
-#### Step 10 - update the doc portal (when identified)
+#### Step 11 - update the doc portal (when identified)
 
 When the documentation is merged and if it has been identified that it should be published on the DHIS2 Documentation portal you simply need to create an issue in the DHIS2 Documentation repository and assign it to Phil or Matthieu letting us know that resources should be added.
 
@@ -142,7 +139,7 @@ When the documentation is merged and if it has been identified that it should be
 
 Alternatively, and when suitable, the documentation can be published directly in the area specific documentation repository. More guidance will be provided.
 
-#### Step 11, 12, 1, 14 & 15 Translate the documentation (when identified)
+#### Step 12, 13, 14 & 15 Translate the documentation (when identified)
 
 !!! Note
     This section will be better described.

@@ -29,7 +29,8 @@ sequenceDiagram
       deactivate D
       Note over D: Contributor wants to share
       D->>D: stages the contribution
-      D->>C: pushes the contribution
+      D->>D: commit the staged contribution
+      D->>C: pushes the commited contribution
       C->>C: merges to master branch
       C->>B: create a Pull request to merge
       opt when identified
