@@ -316,4 +316,4 @@ I am testing tools to use Markdown to create slides and this looks promising. If
 [atom]: https://atom.io/
 [tableconvert]: https://tableconvert.com/
 [gmf table]: https://help.github.com/en/github/writing-on-github/organizing-information-with-tables#creating-a-table
-[template repo]: tbd
+[template repo]: https://github.com/dhis2/dhis2-doc-support/generate
