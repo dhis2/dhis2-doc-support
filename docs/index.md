@@ -24,7 +24,7 @@ These guidlines are not meant to be a substitute for all the great resources alr
 
 ## Audience
 
-This document is intended for contributors to the DHIS2 documentation, who are certainly tech enthusiasts ;) but are not necessarily developers.
+This document is intended for regular contributors to the DHIS2 documentation, who are certainly tech enthusiasts ;) but are not necessarily developers. For occasional contributors lighter guidelines will follow.
 
 ## Context and decision factors
 
@@ -74,7 +74,7 @@ Below you will find a step-by-step. May you be unfamiliar with Github, we recomm
 1. Clone the forked/created from template repository to have it on your local machine and be able to perform any contribution you want to, such as creating a new markdown document or editing a current one.
 
 !!! Tip "Tools to use"
-    A Git client such as *Github Desktop*.
+    A Git client such as *Github Desktop* or *Visual Studio Code* with the extension [GitHub Pull Requests and Issues][vsc github]
 
 !!! Note
     You can read more on how to [clone and fork repositories using GitHub Desktop][clone fork desktop].
@@ -210,8 +210,8 @@ Tools play a key part in the success in the implementation of these guidelines. 
 
 This should be your preferred to either create or edit. Any text editor, can do the job. We strongly recommend that you use one that one which can help with 1) the light styling of Markdown 2) the rendering.
 
-* [Typora][typora] (open source & free), available on Linux, MacOSX and Windows is a nice app, that eases the creation of table and integrates mermaid.js to create diagrams.
-* [Visual Studio Code][vs code], with the extension [Markdown Preview Enhanced][vsc mpe] is another cross-platform tool This one is a bit more tech savvy.
+* [Typora][typora] (open source & free), available on Linux, MacOSX and Windows is a user friendly and nice piece of software, that eases the creation of table and integrates mermaid.js to create diagrams.
+* [Visual Studio Code][vs code], with the extension [Markdown Preview Enhanced][vsc mpe] is another cross-platform tool This one is a bit more tech savvy and is nicely integrated with Github, especially with the extension [GitHub Pull Requests and Issues][vsc github]
 
 #### Online editors
 
@@ -299,3 +299,4 @@ I am testing tools to use Markdown to create slides and this looks promising. If
 [tableconvert]: https://tableconvert.com/
 [gmf table]: https://help.github.com/en/github/writing-on-github/organizing-information-with-tables#creating-a-table
 [template repo]: https://github.com/dhis2/dhis2-doc-support/generate
+[vsc github]: https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github
